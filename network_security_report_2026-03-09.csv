@@ -1,0 +1,8 @@
+﻿Timestamp,Operation,Type,Details,Status
+2026-03-09 14:35:27,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-03-09 14:36:11,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-03-09 15:19:19,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-03-09 15:19:24,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-09 15:19:26,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-09 15:19:27,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-09 15:19:29,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success

@@ -1,0 +1,2 @@
+﻿Timestamp,Operation,Type,Details,Status
+2026-02-22 21:44:14,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success

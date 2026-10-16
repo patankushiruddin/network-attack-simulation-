@@ -1,0 +1,43 @@
+﻿"Timestamp","Operation","Type","Details","Status"
+"2026-03-08 18:39:54","Start DoS","DoS","Target: 192.168.1.100:80, Rate: 50 packets/sec","Success"
+"2026-03-08 18:39:57","Stop DoS","DoS","DoS attack stopped by user","Success"
+"2026-03-08 18:40:06","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:07","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:07","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:08","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:08","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:08","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:09","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:09","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:09","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:10","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:10","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:10","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:10","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:15","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:16","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:16","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:17","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:17","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:17","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-08 18:40:30","ENCRYPT RSA","Crypto","Algorithm: RSA, Text: Certification Course Report
+1...., Result: ⚠️ FAKE (Invalid RSA format)","Success"
+"2026-03-08 18:40:31","DECRYPT RSA","Crypto","Algorithm: RSA, Text: Certification Course Report
+1...., Result: ✅ REAL (RSA decrypted text)","Success"
+"2026-03-08 18:40:32","DECRYPT RSA","Crypto","Algorithm: RSA, Text: Certification Course Report
+1...., Result: ✅ REAL (RSA decrypted text)","Success"
+"","","","",""
+"SUMMARY STATISTICS","","","",""
+"Total Operations Today","24","","",""
+"DoS Attacks","2","","",""
+"IP Spoofing","19","","",""
+"Cryptography","3","","",""
+"System Operations","0","","",""
+"","","","",""
+"ANALYSIS","","","",""
+"Peak Activity Hour","18:00","","",""
+"Most Common Operation","IP Spoof","","",""
+2026-03-08 18:41:48,Reset System,System,All data and statistics reset,Success
+2026-03-08 18:41:50,Reset System,System,All data and statistics reset,Success
+2026-03-08 18:41:50,Reset System,System,All data and statistics reset,Success
+2026-03-08 18:41:50,Reset System,System,All data and statistics reset,Success

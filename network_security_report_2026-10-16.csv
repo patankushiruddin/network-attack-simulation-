@@ -1,0 +1,18 @@
+﻿Timestamp,Operation,Type,Details,Status
+2026-10-16 19:26:00,ENCRYPT Caesar Cipher,Crypto,"Algorithm: Caesar Cipher, Text: hello..., Result: 🤔 UNCERTAIN (Mixed indicators)",Success
+2026-10-16 19:26:01,DECRYPT Caesar Cipher,Crypto,"Algorithm: Caesar Cipher, Text: hello..., Result: ✅ REAL (Authentic result)",Success
+2026-10-16 23:59:59,SUMMARY,STATISTICS,Total Operations: 2,Completed
+2026-10-16 23:59:59,SUMMARY,STATISTICS,DoS Attacks: 0,Completed
+2026-10-16 23:59:59,SUMMARY,STATISTICS,IP Spoofing: 0,Completed
+2026-10-16 23:59:59,SUMMARY,STATISTICS,Cryptography: 2,Completed
+2026-10-16 23:59:59,SUMMARY,STATISTICS,System Operations: 0,Completed
+2026-10-16 23:59:59,ANALYSIS,PEAK_ACTIVITY,Peak Hour: 19:00,Completed
+2026-10-16 23:59:59,ANALYSIS,MOST_COMMON,Most Common: Crypto,Completed
+2026-10-16 19:26:34,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-10-16 19:26:38,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-10-16 19:26:40,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-10-16 19:26:40,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-10-16 19:26:40,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-10-16 19:26:40,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-10-16 19:26:40,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-10-16 19:26:41,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success

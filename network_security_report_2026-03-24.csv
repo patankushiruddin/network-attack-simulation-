@@ -1,0 +1,32 @@
+﻿"Timestamp","Operation","Type","Details","Status"
+"2026-03-24 12:11:46","Start DoS","DoS","Target: 192.168.1.100:80, Rate: 50 packets/sec","Success"
+"2026-03-24 12:11:49","Stop DoS","DoS","DoS attack stopped by user","Success"
+"2026-03-24 12:11:57","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:11:58","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:11:58","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:11:59","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:11:59","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:11:59","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:12:00","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:12:00","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:12:00","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: hello...","Success"
+"2026-03-24 12:12:50","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: import React from """"react"""";
+
+fu..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-03-24 12:12:53","DECRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: import React from """"react"""";
+
+fu..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-03-24 12:12:54","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: import React from """"react"""";
+
+fu..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"","","","",""
+"SUMMARY STATISTICS","","","",""
+"Total Operations Today","14","","",""
+"DoS Attacks","2","","",""
+"IP Spoofing","9","","",""
+"Cryptography","3","","",""
+"System Operations","0","","",""
+"","","","",""
+"ANALYSIS","","","",""
+"Peak Activity Hour","12:00","","",""
+"Most Common Operation","IP Spoof","","",""

@@ -1,0 +1,57 @@
+﻿"Timestamp","Operation","Type","Details","Status"
+"2026-02-17 12:27:59","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-02-17 12:28:02","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-02-17 12:28:05","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-02-17 12:28:05","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-02-17 12:28:05","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-02-17 12:28:19","ENCRYPT RSA","Crypto","Algorithm: RSA, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: ⚠️ FAKE (Invalid RSA format)","Success"
+"2026-02-17 12:28:20","ENCRYPT RSA","Crypto","Algorithm: RSA, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: ⚠️ FAKE (Invalid RSA format)","Success"
+"2026-02-17 12:28:20","DECRYPT RSA","Crypto","Algorithm: RSA, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: ✅ REAL (RSA decrypted text)","Success"
+"2026-02-17 12:28:21","DECRYPT RSA","Crypto","Algorithm: RSA, Text: Slide 1: Title Slide
+
+Slide 2:..., Result: ✅ REAL (RSA decrypted text)","Success"
+"2026-02-17 12:28:59","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: kushiruddin..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-02-17 12:29:00","DECRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: kushiruddin..., Result: ✅ REAL (Authentic result)","Success"
+"2026-02-17 12:29:05","ENCRYPT ROT13","Crypto","Algorithm: ROT13, Text: kushiruddin..., Result: ✅ REAL (ROT13 is its own inverse)","Success"
+"2026-02-17 12:29:06","DECRYPT ROT13","Crypto","Algorithm: ROT13, Text: kushiruddin..., Result: ✅ REAL (ROT13 is its own inverse)","Success"
+"2026-02-17 12:29:09","ENCRYPT Base64","Crypto","Algorithm: Base64, Text: kushiruddin..., Result: ✅ REAL (Authentic result)","Success"
+"2026-02-17 12:29:10","DECRYPT Base64","Crypto","Algorithm: Base64, Text: kushiruddin..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-02-17 12:29:15","ENCRYPT RSA","Crypto","Algorithm: RSA, Text: kushiruddin..., Result: ⚠️ FAKE (Invalid RSA format)","Success"
+"2026-02-17 12:29:16","DECRYPT RSA","Crypto","Algorithm: RSA, Text: kushiruddin..., Result: ✅ REAL (RSA decrypted text)","Success"
+"","","","",""
+"SUMMARY STATISTICS","","","",""
+"Total Operations Today","17","","",""
+"DoS Attacks","0","","",""
+"IP Spoofing","0","","",""
+"Cryptography","17","","",""
+"System Operations","0","","",""
+"","","","",""
+"ANALYSIS","","","",""
+"Peak Activity Hour","12:00","","",""
+"Most Common Operation","Crypto","","",""
+2026-02-17 12:44:53,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-02-17 12:44:59,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 76 packets/sec",Success
+2026-02-17 12:45:13,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-02-17 12:45:15,Reset System,System,All data and statistics reset,Success
+2026-02-17 12:46:39,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-02-17 12:46:40,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-02-17 12:49:57,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-02-17 12:51:29,Start DoS,DoS,"Target: 192.168.1.09:80, Rate: 50 packets/sec",Success
+2026-02-17 12:51:33,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-02-17 12:51:53,Stop DoS,DoS,DoS attack stopped by user,Success

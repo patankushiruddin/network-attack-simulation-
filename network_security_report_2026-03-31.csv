@@ -1,0 +1,58 @@
+﻿"Timestamp","Operation","Type","Details","Status"
+"2026-03-31 09:47:24","Start DoS","DoS","Target: 192.168.1.100:80, Rate: 50 packets/sec","Success"
+"2026-03-31 09:47:53","Stop DoS","DoS","DoS attack stopped by user","Success"
+"2026-03-31 09:47:54","Start DoS","DoS","Target: 192.168.1.100:80, Rate: 83 packets/sec","Success"
+"2026-03-31 09:48:00","Stop DoS","DoS","DoS attack stopped by user","Success"
+"2026-03-31 09:48:14","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...","Success"
+"2026-03-31 09:48:15","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...","Success"
+"2026-03-31 09:48:18","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...","Success"
+"2026-03-31 09:48:21","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...","Success"
+"2026-03-31 09:48:21","Send Spoof","IP Spoof","From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...","Success"
+"2026-03-31 09:49:06","ENCRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: Hello from spoofed IP!..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-03-31 09:49:09","DECRYPT Caesar Cipher","Crypto","Algorithm: Caesar Cipher, Text: Hello from spoofed IP!..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-03-31 09:49:19","ENCRYPT ROT13","Crypto","Algorithm: ROT13, Text: Hello from spoofed IP!..., Result: ✅ REAL (ROT13 is its own inverse)","Success"
+"2026-03-31 09:49:32","DECRYPT ROT13","Crypto","Algorithm: ROT13, Text: Hello from spoofed IP!..., Result: ✅ REAL (ROT13 is its own inverse)","Success"
+"2026-03-31 09:49:39","ENCRYPT Base64","Crypto","Algorithm: Base64, Text: Hello from spoofed IP!..., Result: ✅ REAL (Authentic result)","Success"
+"2026-03-31 09:49:42","DECRYPT Base64","Crypto","Algorithm: Base64, Text: Hello from spoofed IP!..., Result: 🤔 UNCERTAIN (Mixed indicators)","Success"
+"2026-03-31 09:49:55","Generate RSA Keys","Crypto","RSA 1024-bit keys generated successfully","Success"
+"2026-03-31 09:50:01","ENCRYPT RSA","Crypto","Algorithm: RSA, Text: Hello from spoofed IP!..., Result: ✅ REAL (RSA encrypted data)","Success"
+"2026-03-31 09:50:03","ENCRYPT RSA","Crypto","Algorithm: RSA, Text: Hello from spoofed IP!..., Result: ✅ REAL (RSA encrypted data)","Success"
+"2026-03-31 09:50:08","DECRYPT RSA","Crypto","Algorithm: RSA, Text: Hello from spoofed IP!..., Result: ✅ REAL (RSA decrypted text)","Success"
+"2026-03-31 09:50:09","DECRYPT RSA","Crypto","Algorithm: RSA, Text: Hello from spoofed IP!..., Result: ✅ REAL (RSA decrypted text)","Success"
+"","","","",""
+"SUMMARY STATISTICS","","","",""
+"Total Operations Today","20","","",""
+"DoS Attacks","4","","",""
+"IP Spoofing","5","","",""
+"Cryptography","11","","",""
+"System Operations","0","","",""
+"","","","",""
+"ANALYSIS","","","",""
+"Peak Activity Hour","9:00","","",""
+"Most Common Operation","Crypto","","",""
+2026-03-31 09:52:06,ENCRYPT Caesar Cipher,Crypto,"Algorithm: Caesar Cipher, Text: hello..., Result: 🤔 UNCERTAIN (Mixed indicators)",Success
+2026-03-31 09:52:13,DECRYPT Caesar Cipher,Crypto,"Algorithm: Caesar Cipher, Text: hello..., Result: ✅ REAL (Authentic result)",Success
+2026-03-31 09:52:27,ENCRYPT RSA,Crypto,"Algorithm: RSA, Text: hello..., Result: ⚠️ FAKE (Invalid RSA format)",Success
+2026-03-31 09:52:34,DECRYPT RSA,Crypto,"Algorithm: RSA, Text: hello..., Result: ✅ REAL (RSA decrypted text)",Success
+2026-03-31 09:53:19,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:21,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:23,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:34,Reset System,System,All data and statistics reset,Success
+2026-03-31 09:53:36,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:38,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:41,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:42,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:43,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:44,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:45,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:53:46,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-31 09:59:52,Reset System,System,All data and statistics reset,Success
+2026-03-31 10:24:26,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-03-31 10:24:34,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!1111...",Success
+2026-03-31 10:24:38,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!1111...",Success
+2026-03-31 10:24:40,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-03-31 10:24:41,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!1111...",Success
+2026-03-31 10:24:44,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!1111...",Success
+2026-03-31 10:25:12,Generate RSA Keys,Crypto,RSA 1024-bit keys generated successfully,Success
+2026-03-31 10:25:19,ENCRYPT RSA,Crypto,"Algorithm: RSA, Text: hello..., Result: ✅ REAL (RSA encrypted data)",Success
+2026-03-31 10:25:22,DECRYPT RSA,Crypto,"Algorithm: RSA, Text: hello..., Result: ✅ REAL (RSA decrypted text)",Success

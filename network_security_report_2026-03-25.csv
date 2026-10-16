@@ -1,0 +1,41 @@
+﻿Timestamp,Operation,Type,Details,Status
+2026-03-25 10:33:54,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-03-25 10:43:25,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:25,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:26,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:26,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:26,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:27,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:27,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:27,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:28,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:28,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: Hello from spoofed IP!...",Success
+2026-03-25 10:43:31,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-03-25 10:43:50,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:43:55,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:43:56,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:43:56,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:43:57,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:43:57,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:43:57,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:43:58,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:43:58,Send Spoof,IP Spoof,"From: 10.0.0.1 To: 192.168.1.100, Message: learning group 4...",Success
+2026-03-25 10:48:03,ENCRYPT Caesar Cipher,Crypto,"Algorithm: Caesar Cipher, Text: lwarning group 4..., Result: 🤔 UNCERTAIN (Mixed indicators)",Success
+2026-03-25 10:48:03,ENCRYPT Caesar Cipher,Crypto,"Algorithm: Caesar Cipher, Text: lwarning group 4..., Result: 🤔 UNCERTAIN (Mixed indicators)",Success
+2026-03-25 10:48:04,DECRYPT Caesar Cipher,Crypto,"Algorithm: Caesar Cipher, Text: lwarning group 4..., Result: 🤔 UNCERTAIN (Mixed indicators)",Success
+2026-03-25 10:48:04,DECRYPT Caesar Cipher,Crypto,"Algorithm: Caesar Cipher, Text: lwarning group 4..., Result: ✅ REAL (Authentic result)",Success
+2026-03-25 10:48:06,ENCRYPT ROT13,Crypto,"Algorithm: ROT13, Text: lwarning group 4..., Result: ✅ REAL (ROT13 is its own inverse)",Success
+2026-03-25 10:48:07,DECRYPT ROT13,Crypto,"Algorithm: ROT13, Text: lwarning group 4..., Result: ✅ REAL (ROT13 is its own inverse)",Success
+2026-03-25 10:48:09,ENCRYPT Base64,Crypto,"Algorithm: Base64, Text: lwarning group 4..., Result: 🤔 UNCERTAIN (Mixed indicators)",Success
+2026-03-25 10:48:09,DECRYPT Base64,Crypto,"Algorithm: Base64, Text: lwarning group 4..., Result: ⚠️ FAKE (Suspicious patterns detected)",Success
+2026-03-25 10:48:12,ENCRYPT XOR,Crypto,"Algorithm: XOR, Text: lwarning group 4..., Result: 🤔 UNCERTAIN (Mixed indicators)",Success
+2026-03-25 10:48:12,DECRYPT XOR,Crypto,"Algorithm: XOR, Text: lwarning group 4..., Result: 🤔 UNCERTAIN (Mixed indicators)",Success
+2026-03-25 10:48:14,ENCRYPT Reverse,Crypto,"Algorithm: Reverse, Text: lwarning group 4..., Result: ✅ REAL (Reversible operation)",Success
+2026-03-25 10:48:15,DECRYPT Reverse,Crypto,"Algorithm: Reverse, Text: lwarning group 4..., Result: ✅ REAL (Reversible operation)",Success
+2026-03-25 10:48:17,ENCRYPT RSA,Crypto,"Algorithm: RSA, Text: lwarning group 4..., Result: ⚠️ FAKE (Invalid RSA format)",Success
+2026-03-25 10:48:18,DECRYPT RSA,Crypto,"Algorithm: RSA, Text: lwarning group 4..., Result: ✅ REAL (RSA decrypted text)",Success
+2026-03-25 10:52:16,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
+2026-03-25 10:52:18,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-03-25 10:52:19,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 92 packets/sec",Success
+2026-03-25 10:52:21,Stop DoS,DoS,DoS attack stopped by user,Success
+2026-03-25 13:50:28,Start DoS,DoS,"Target: 192.168.1.100:80, Rate: 50 packets/sec",Success
